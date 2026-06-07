@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>国内可用 AI 编程工作流套件</title>
+    <meta
+      name="description"
+      content="Roo Code、Qwen Code、DeepSeek、Qwen、私有知识库和 Git 工作流组成的国内可用 AI 编程 MVP。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">AI</span>
+        <span>国内可用 AI 编程工作流</span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="#kit">套件</a>
+        <a href="#workflow">流程</a>
+        <a href="#roadmap">路线</a>
+        <a href="#progress">进度</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">最小可爱产品 v0.1</p>
+          <h1>不用 Codex，也能给大陆团队搭一套 AI 编程工作流。</h1>
+          <p class="lead">
+            用 Roo Code / Qwen Code 接入 DeepSeek、Qwen 等国内可用模型，再配合 GitHub、Gitee、极狐 GitLab、私有知识库和安全规范，帮开发者把 AI 真正放进日常开发。
+          </p>
+          <div class="hero-actions" aria-label="行动入口">
+            <a class="button primary" href="#pilot">加入内测</a>
+            <a class="button secondary" href="./docs/playbook.md">查看作战手册</a>
+          </div>
+        </div>
+        <aside class="signal-panel" aria-label="MVP 当前状态">
+          <div>
+            <span class="metric">4</span>
+            <span class="label">核心模块</span>
+          </div>
+          <div>
+            <span class="metric">10</span>
+            <span class="label">实战案例目标</span>
+          </div>
+          <div>
+            <span class="metric">90天</span>
+            <span class="label">从验证到团队落地</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="kit" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">MVP Kit</p>
+          <h2>第一版只解决一件事：让用户跑起来。</h2>
+        </div>
+        <div class="grid four">
+          <article class="card">
+            <h3>模型接入</h3>
+            <p>DeepSeek、Qwen、OpenAI-compatible、本地模型。按任务给出推荐组合。</p>
+          </article>
+          <article class="card">
+            <h3>Agent 工具</h3>
+            <p>Roo Code 负责 VS Code 内改代码，Qwen Code 负责终端任务和仓库级操作。</p>
+          </article>
+          <article class="card">
+            <h3>私有知识库</h3>
+            <p>把 README、接口文档、需求文档、FAQ 放进 FastGPT 或同类 RAG 工具。</p>
+          </article>
+          <article class="card">
+            <h3>安全规范</h3>
+            <p>禁止自动提交、禁止改生产配置、敏感文件黑名单、人工 review 必经。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Daily Workflow</p>
+          <h2>把 AI 编程变成一个可重复流程。</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <strong>建立项目规则</strong>
+            <span>写入技术栈、代码风格、测试命令、禁止事项。</span>
+          </li>
+          <li>
+            <strong>连接模型与仓库</strong>
+            <span>Roo Code / Qwen Code 接 DeepSeek 或 Qwen，仓库接 GitHub、Gitee 或 GitLab。</span>
+          </li>
+          <li>
+            <strong>让 AI 先读再改</strong>
+            <span>先总结代码、列计划、确认风险，再允许局部修改。</span>
+          </li>
+          <li>
+            <strong>测试与审查</strong>
+            <span>运行本地测试，查看 diff，人工合并 PR/MR。</span>
+          </li>
+        </ol>
+      </section>
+
+      <section id="templates" class="section two-col">
+        <div>
+          <p class="eyebrow">Templates</p>
+          <h2>已经放进仓库的首批模板。</h2>
+          <p>
+            这些文件是 MVP 的可交付资产：以后每次迭代都往这里加配置、案例和团队规范。
+          </p>
+        </div>
+        <div class="link-list">
+          <a href="./templates/roo-code-rules.md">Roo Code 项目规则模板</a>
+          <a href="./templates/security-checklist.md">AI 编程安全检查表</a>
+          <a href="./templates/pilot-intake.md">早期用户访谈表</a>
+          <a href="./docs/playbook.md">MVP 作战手册</a>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">90-Day Plan</p>
+          <h2>从可爱 MVP 到能收费的落地包。</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3>需求验证</h3>
+            <p>发布长文、短视频、演示页，收集 50 个线索和 5 个愿意试用的人。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>模板打磨</h3>
+            <p>补齐 DeepSeek/Qwen 配置、常见错误、10 个真实开发案例。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>小班交付</h3>
+            <p>带 5-10 个开发者完成配置，记录卡点，形成 FAQ。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>团队试点</h3>
+            <p>面向外包团队、SaaS 小团队、跨境业务技术团队做远程落地。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="progress" class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Progress Log</p>
+          <h2>公开记录开发进度。</h2>
+        </div>
+        <div class="progress-list">
+          <article>
+            <time datetime="2026-06-07">2026-06-07</time>
+            <h3>v0.1 MVP 站点启动</h3>
+            <p>完成产品定位、模块拆分、首批模板和 90 天路线。下一步补配置截图和实战 demo。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pilot" class="section cta">
+        <p class="eyebrow">Pilot</p>
+        <h2>内测目标：找到 5 个真实开发者，一起把流程跑顺。</h2>
+        <p>
+          早期用户只需要带一个真实项目来：一个 bug、一个旧模块、一个接口文档或一个测试缺口。MVP 的价值就是把这些真实场景跑通。
+        </p>
+        <a class="button primary" href="./templates/pilot-intake.md">查看访谈表</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>国内可用 AI 编程工作流套件 · MVP v0.1 · 只做合规可落地的开发效率系统</p>
+    </footer>
+  </body>
+</html>
