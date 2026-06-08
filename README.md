@@ -11,6 +11,10 @@
 - AI 编程安全检查表：`templates/security-checklist.md`
 - 早期用户访谈表：`templates/pilot-intake.md`
 - MVP 作战手册：`docs/playbook.md`
+- DeepSeek + Roo Code 配置样例：`docs/configs/deepseek-roo-code.md`
+- Qwen + Roo Code 配置样例：`docs/configs/qwen-roo-code.md`
+- Qwen Code CLI 安装与试运行：`docs/configs/qwen-code-cli.md`
+- 配置常见错误排查：`docs/configs/troubleshooting.md`
 
 ## 推荐技术组合
 
